@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1><b>Clínica Veterinária</b></h1>
+
+    <form id="formulario">
+        <fieldset id="fieldset">
+            <legend id="legenda"><b>Fila de Atendimento:</b></legend>
+            <br><br>
+
+            <label><b>Nome do pet:</b>
+                <input type="text" placeholder="Informe o nome do pet" id="nome" required>
+            </label> 
+            <br><br>
+
+            <label><b>Espécie do pet:</b>
+                <input type="text" id="especie" placeholder="Informe a espécie do pet">
+            </label> 
+            <br><br>
+
+            <label><b>É prioridade?</b></label><br><br>
+            <input type="radio" name="prioridade" id="prio_sim" value="sim"> Sim
+            <input type="radio" name="prioridade" id="prio_nao" value="nao" checked> Não
+            <br><br>
+
+            <button type="submit" class="botao" id="btn-cadastrar">Cadastrar</button>
+            <input type="button" class="botao" onclick="listar()" value="Consultar" id="btn-consultar">
+        </fieldset>
+    </form>
+
+    <br><br>
+
+    <fieldset id="fieldset_espera">
+        <legend id="legenda"><b>Lista de Espera:</b></legend>
+        <div id="resultado_espera"></div>
+    </fieldset> 
+
+    <br><br>
+
+    <input type="button" class="botao" onclick="atender()" value="Atender" id="btn-atender">
+
+    <script src="atv7.js"></script>
+</body>
+</html>

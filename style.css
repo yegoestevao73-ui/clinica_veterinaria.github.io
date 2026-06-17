@@ -1,0 +1,61 @@
+body{
+    background-image: url(veterinario.jpg);
+    background-size: cover;
+    color: black; 
+}
+
+h1{
+    margin-left: 53vh;
+    font-size: 80px;
+    color: goldenrod;
+}
+
+#legenda{
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+
+}
+
+
+#fieldset{
+    border: black 5px solid;
+    width: 70vh;
+    height: 55vh;
+    background-color: rgba(255, 255, 0, 0.5);
+    margin: auto;
+    font-size: 22px;   
+}
+
+#fieldset_espera{
+    border: black 5px solid;
+    width: 70vh;
+    height: 55vh;
+    background-color: rgba(255, 255, 0, 0.5);
+    margin: auto;
+    font-size: 22px;   
+}
+
+
+.botao{
+    background-color: rgba(141, 7, 30, 0.799);
+    color: white;
+    font-size: 20px;
+    height: 5vh;
+    width: 15vh;
+    border: white 3.7px solid;
+    margin-right: 10px;
+}
+
+
+#label{
+    font-size: 20px;
+}
+
+#resultado_espera{
+    color: rgb(10, 0, 117);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 10px;
+}
